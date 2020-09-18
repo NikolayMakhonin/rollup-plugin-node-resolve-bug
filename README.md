@@ -1,0 +1,1 @@
+See this issue: https://github.com/rollup/plugins/issues/581
