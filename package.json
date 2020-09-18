@@ -1,0 +1,19 @@
+{
+  "name": "rollup-plugin-node-resolve-bug",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "npm run test1 && npm run test2",
+    "test1": "node test1/build.js",
+    "test2": "node test2/build.js"
+  },
+  "dependencies": {
+    "@babel/core": "^7.11.6",
+    "@babel/plugin-transform-runtime": "^7.11.5",
+    "@babel/runtime-corejs3": "^7.11.2",
+    "@rollup/plugin-babel": "^5.2.1",
+    "@rollup/plugin-commonjs": "^15.0.0",
+    "@rollup/plugin-node-resolve": "^9.0.0",
+    "rollup": "^2.27.1"
+  }
+}
